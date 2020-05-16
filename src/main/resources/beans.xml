@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        https://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--1:开启注解自动扫描，全部扫描service、dao、controller-->
+    <context:component-scan base-package="com.galaxy"/>
+
+    <!--2:加载数据库配置-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!--2:配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!-- mybatis的sqlsessionFactorybean：org.mybatis.spring.SqlSessionFactoryBean-->
+    <!-- 3、配置mybatis-plus的sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+
+        <property name="typeAliasesPackage" value="com.galaxy.entity"/>
+        <!-- 注入全局配置 -->
+        <property name="globalConfig" ref="globalConfiguration"/>
+        <!-- 配置插件 -->
+        <property name="plugins">
+            <list>
+                <!-- 分页插件 -->
+                <bean class="com.baomidou.mybatisplus.plugins.PaginationInterceptor"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 4、DAO接口所在包名，Spring会自动查找其下的类 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.galaxy.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <!-- 5、mybatisplus的全局策略配置:需要在3中进行注入全局配置 -->
+    <bean id="globalConfiguration" class="com.baomidou.mybatisplus.entity.GlobalConfiguration">
+        <!-- 2.3版本后，驼峰命名默认值就是true，所以可不配置 -->
+        <!--<property name="dbColumnUnderline" value="true"/>-->
+        <!-- 全局主键自增策略，0表示auto -->
+        <property name="idType" value="0"/>
+        <!-- 全局表前缀配置 -->
+        <property name="tablePrefix" value="tax_"/>
+        <!-- 注入逻辑删除，先要把自定义的注释掉 -->
+        <!-- <property name="sqlInjector" ref="logicSqlInjector"/> -->
+        <!-- 注入逻辑删除值 -->
+        <!-- <property name="logicDeleteValue" value="-1"/> --><!-- -1是删除状态 -->
+        <!-- <property name="logicNotDeleteValue" value="1"/> --><!-- 1是未删除状态-->
+        <!-- 注入公共字段填充处理器 -->
+        <!--<property name="metaObjectHandler" ref="myMetaObjectHandler"/>-->
+    </bean>
+
+    <!--6:配置事务管理对象:切面-->
+    <bean id="tx" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--7:配置事务策略,通知-->
+    <tx:advice id="txAdvice" transaction-manager="tx">
+        <tx:attributes>
+            <tx:method name="*" isolation="DEFAULT"/>
+            <tx:method name="select*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--8:原来配置的是dao包，现在dao用的是注解来实现的，所以将事务配置到业务处理层-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.galaxy.service.impl.*.*(..))"/>
+    </aop:config>
+
+    <!-- 如果是对全表的删除或更新操作，就会终止该操作 -->
+    <!--    <bean class="com.baomidou.mybatisplus.plugins.SqlExplainInterceptor">-->
+    <!--        <property name="stopProceed" value="true"/>-->
+    <!--    </bean>-->
+
+    <!-- 逻辑删除 -->
+    <!-- <bean class="com.baomidou.mybatisplus.mapper.LogicSqlInjector" id="logicSqlInjector"/> -->
+
+    <!-- 公共字段填充处理器 -->
+    <!--<bean class="com.galaxy.handler.MyMetaObjectHandler" id="myMetaObjectHandler"/>-->
+
+    <!--配置视图解析器-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!--过滤静态资源-->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/images/**" location="/images/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+
+    <!--配置SpringMVC注解扫描-->
+    <mvc:annotation-driven/>
+
+</beans>
