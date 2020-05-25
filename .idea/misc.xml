@@ -4,12 +4,13 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../tax222" />
+    <file type="web" url="file://$PROJECT_DIR$/../TaxExcel" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../tax222/pom.xml" />
+        <option value="$PROJECT_DIR$/../TaxExcel/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tax222" />
+        <module name="TaxExcel" />
         <module name="tax" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tax222" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -22,13 +22,7 @@ import java.util.List;
 public class Role implements Serializable {
 
     private Integer id;
-    /**
-    * 姓名
-    */
     private String name;
-    /**
-    * 状态
-    */
     private String state;
 
     @TableField(exist = false)
