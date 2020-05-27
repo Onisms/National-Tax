@@ -6,570 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f7f03d-7ac7-4298-bf5c-9032b3ae612a" name="Default Changelist" comment="03.纳税服务增删改查及分页功能">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/web/Listener/AccountExcelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account/insert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/DeptDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/PrivilegeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/RolePrivilegeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/dao/TestBeanDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/Privilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/RolePrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/entity/TestBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/PrivilegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/RolePrivilegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/TestBeanService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/PrivilegeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/RolePrivilegeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/service/impl/TestBeanServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/web/controller/AccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/web/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/web/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/web/controller/TaxServiceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/com/galaxy/web/controller/TestBeanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/aspectjweaver-1.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/cglib-nodep-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/jsqlparser-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-plus-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-plus-core-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-plus-generate-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-plus-support-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/slf4j-nop-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-aop-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-aspects-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-beans-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-context-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-core-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-expression-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-jcl-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-jdbc-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-orm-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-tx-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-web-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/lib/spring-webmvc-5.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/home/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/loginPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/role/insert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/role/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/role/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/tax/frame.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/tax/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/tax/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/testBean/insert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/testBean/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/testBean/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/common/bg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/common/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/common/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/css/nsfw/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/css/nsfw/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/css/skin1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/common/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/banner_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/banner_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/banner_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/banner_xt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/bt2_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/bt_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/flash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/gs09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/gs10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/home_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/ind01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/ind02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/kjfs_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/left_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/sj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/home/top_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/form_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/form_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/form_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/form_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/kuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/shuru_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/login/shuru_03_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/banner_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/banner_bg.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/banner_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/banner_xt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/bosimao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/bt2_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/bt_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/dcl_jd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/dcr_jd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/dy_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/e_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/e_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/exam_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/flash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/gl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grtx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grzx01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grzx01_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grzx02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grzx03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/grzx04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/gslogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/home_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/icoBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/icon_yy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/ind01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/ind03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/jf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/jt_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfs_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/kjfx_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/left_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/left_bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/left_jd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/lmbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/maximize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/menu_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/pm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/right_bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/right_jd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sm_ddbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sm_libg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sm_libg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sm_libg2curr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/sw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/top01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/top02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/top03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/top_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/top_bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xingzheng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_kjfs01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_kjfs02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_kjfs03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_kjfs04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xs_kjfs05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xslm_bg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xslm_bg02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xsxs_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xszst_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xzfw_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xzfwptBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xzfwptBg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xzfwptBg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/xzfwpt_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/nsfw/文字.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/images/skin1/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/DD_belatedPNG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/read me.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/datepicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/fusioncharts.charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/fusioncharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/themes/fusioncharts.theme.carbon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/themes/fusioncharts.theme.fint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/themes/fusioncharts.theme.ocean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/fusioncharts/themes/fusioncharts.theme.zune.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/jquery/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/controller.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/lib/json.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/jsp/lib/ueditor-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Tax/js/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/DeptDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/PrivilegeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/RolePrivilegeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/dao/TestBeanDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/Privilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/RolePrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/entity/TestBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/PrivilegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/RolePrivilegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/TestBeanService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/PrivilegeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/RolePrivilegeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/service/impl/TestBeanServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/web/controller/AccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/web/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/web/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/web/controller/TaxServiceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/galaxy/web/controller/TestBeanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="16f7f03d-7ac7-4298-bf5c-9032b3ae612a" name="Default Changelist" comment="04.账户查询，实现了增删改查以及以Excel表导入导出">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/dao/InfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/service/InfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/service/impl/InfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/web/controller/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/info/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/info/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/info/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1e30c30-9ee6-424c-b581-18974aa8360a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1e30c30-9ee6-424c-b581-18974aa8360a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/galaxy/web/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galaxy/web/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/tax/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/tax/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tax.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tax.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/tax/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Tax/WEB-INF/pages/tax/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -608,7 +64,7 @@
         <item name="tax4@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="tax4: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tax_account: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="tax_info: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -681,7 +137,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../TaxExcel/src/main/java/com/galaxy" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TaxExcel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -704,15 +160,15 @@
       <recent name="com.galaxy.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.galaxy.entity.web.listener" />
-      <recent name="com.galaxy.dao" />
       <recent name="com.galaxy.service.impl" />
       <recent name="com.galaxy.service" />
+      <recent name="com.galaxy.dao" />
+      <recent name="com.galaxy.entity" />
       <recent name="com.galaxy.web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IDEACode\TaxExcel" />
       <recent name="F:\IDEACode\tax\src\main\webapp\WEB-INF\pages" />
+      <recent name="F:\IDEACode\TaxExcel" />
       <recent name="F:\IDEACode\tax\src\main\webapp\js" />
       <recent name="F:\IDEACode\tax222\src\main\webapp" />
       <recent name="F:\IDEACode\tax222\src\main\webapp\WEB-INF" />
@@ -843,11 +299,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -901,6 +352,10 @@
       <workItem from="1590368323661" duration="913000" />
       <workItem from="1590397554707" duration="2591000" />
       <workItem from="1590411200130" duration="11429000" />
+      <workItem from="1590450236144" duration="1783000" />
+      <workItem from="1590467583827" duration="2791000" />
+      <workItem from="1590482002787" duration="14128000" />
+      <workItem from="1590543646026" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="01.进行页面测试，测试增删改查及分页">
       <created>1589595064670</created>
@@ -923,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589977747011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="04.账户查询，实现了增删改查以及以Excel表导入导出">
+      <created>1590450483170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590450483170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -934,7 +396,8 @@
     <MESSAGE value="01.进行页面测试，测试增删改查及分页" />
     <MESSAGE value="02.页面登录无功能、显示主界面、跳转纳税服务（未实现功能）" />
     <MESSAGE value="03.纳税服务增删改查及分页功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.纳税服务增删改查及分页功能" />
+    <MESSAGE value="04.账户查询，实现了增删改查以及以Excel表导入导出" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.账户查询，实现了增删改查以及以Excel表导入导出" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -982,10 +445,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1191" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589939098304" />
-    <state x="448" y="34" key="CommitChangelistDialog2" timestamp="1589977784567">
+    <state x="448" y="34" key="CommitChangelistDialog2" timestamp="1590543741766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="448" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589977784567" />
+    <state x="448" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590543741766" />
     <state x="101" y="86" key="DiffContextDialog" timestamp="1589977403571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -994,54 +457,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1216" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590331821599" />
-    <state width="1599" height="143" key="GridCell.Tab.0.bottom" timestamp="1590423000197">
+    <state width="1879" height="296" key="GridCell.Tab.0.bottom" timestamp="1590509169225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.0.center" timestamp="1590423000196">
+    <state width="1879" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169225" />
+    <state width="1879" height="296" key="GridCell.Tab.0.center" timestamp="1590509169225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000196" />
-    <state width="1599" height="143" key="GridCell.Tab.0.left" timestamp="1590423000196">
+    <state width="1879" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169225" />
+    <state width="1879" height="296" key="GridCell.Tab.0.left" timestamp="1590509169225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000196" />
-    <state width="1599" height="143" key="GridCell.Tab.0.right" timestamp="1590423000197">
+    <state width="1879" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169225" />
+    <state width="1879" height="296" key="GridCell.Tab.0.right" timestamp="1590509169225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.1.bottom" timestamp="1590423000197">
+    <state width="1879" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169225" />
+    <state width="1599" height="236" key="GridCell.Tab.1.bottom" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.1.center" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.1.center" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.1.left" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.1.left" timestamp="1590509169218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.1.right" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169218" />
+    <state width="1599" height="236" key="GridCell.Tab.1.right" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.2.bottom" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.2.bottom" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.2.center" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.2.center" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.2.left" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.2.left" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
-    <state width="1599" height="143" key="GridCell.Tab.2.right" timestamp="1590423000197">
+    <state width="1599" height="236" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
+    <state width="1599" height="236" key="GridCell.Tab.2.right" timestamp="1590509169219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="143" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590423000197" />
+    <state width="1599" height="236" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590509169219" />
     <state width="1599" height="279" key="GridCell.Tab.3.bottom" timestamp="1590398391835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1074,14 +537,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1599" height="862" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590397997650" />
-    <state x="892" y="148" key="SettingsEditor" timestamp="1590369071600">
+    <state x="880" y="148" key="SettingsEditor" timestamp="1590484409190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590369071600" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1589977750075">
+    <state x="880" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590484409190" />
+    <state x="1104" y="191" key="Vcs.Push.Dialog.v2" timestamp="1590455465321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589977750075" />
+    <state x="1104" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590455465321" />
     <state x="1200" y="298" key="chooseDestDirectoryDialog" timestamp="1590332235249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1106,13 +569,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="105" width="1083" height="777" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590331846257" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1589630281297">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590470640157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589630281297" />
-    <state x="1105" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1590421649427">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590470640157" />
+    <state x="1105" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1590468757026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1105" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590421649427" />
+    <state x="1105" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590468757026" />
   </component>
 </project>
